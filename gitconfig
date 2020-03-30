@@ -1,0 +1,56 @@
+[user]
+	email = devigor.tere@gmail.com
+	name = Igor Oliveira
+	editor = code
+
+[alias]
+    # Add
+    ad = add
+    aa = add .
+
+    # Commit
+    cm = commit -m
+
+    # Checkout
+    co = checkout
+    cb = checkout -b
+
+    # Diff
+    df = diff
+
+    # List
+    tl = tag -l
+    bl = branch -a
+    rl = remote -v
+
+    # Status
+    st = status -s
+
+    # Pull
+    pl   = pull
+
+    # Push
+    pom = push origin master
+    pog = push origin gh-pages
+
+    # Remote
+    ra  = remote add
+    ro = remote add origin
+
+    # Logs
+    l  = log --pretty=oneline --decorate --abbrev-commit --max-count=15
+
+[color]
+  diff = auto
+  status = auto
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added     = green bold
+    branch    = cyan bold
+    changed   = magenta bold
+    deleted   = red bold
+    untracked = yellow bold
