@@ -1,9 +1,11 @@
 [user]
 	email = devigor.tere@gmail.com
 	name = Igor Oliveira
-	editor = code
+	editor = nvim
 
 [alias]
+    # git
+    g = git
     # Add
     ad = add
     aa = add .
